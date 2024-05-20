@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "scrapingformassimo-legge"
+version = "0.1.0"
+description = ""
+authors = ["KittGT42 <114111458+KittGT42@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.2.1"
+selenium = "^4.20.0"
+seleniumbase = "^4.26.3"
+undetected-chromedriver = "^3.5.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
